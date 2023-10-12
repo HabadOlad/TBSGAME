@@ -1,4 +1,20 @@
 button {
-    display: block;
+  display: block;
+  margin-top: 15px;
+  margin-left: 40px;
+  background-color: #FA8072; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: oblique;
+  font-family: 'Londrina Solid';
 }
 
+
+body {
+    font-family: 'Londrina Solid';
+    background-color: #FEE715;
+}
