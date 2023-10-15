@@ -34,6 +34,13 @@ button.addEventListener('click',function(){
 })
     
 })
+
+getInputs()
+function getInputs () {
+    for(var i = 0; i < story.attack.choices.length; i++){
+        console.log(story.attack.choices[i].choice)
+    }
+}
 //document is an object which contains variables and functions and allows you to pick from that object
 //document then period  (document.) allows us to pick from lots of functions
 //query selector allow us to go back into the html, allows you to pick out an element based on what you put in it
@@ -54,4 +61,4 @@ button.addEventListener('click',function(){
 //var story is an object to the left is the key to the right of the semi-colon is the value
 //you can have an object within an object
 //our choices object will be an array, an array is a list of things, 
-//
+//.length gets the length of the array, which in this case is 2
