@@ -1,8 +1,12 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: 'Londrina Solid';
+}
 button {
   display: block;
   margin-top: 15px;
   margin-left: 40px;
-  background-color: #FA8072; /* Green */
+  background-color: #FA8072; /* Coral pink matching the website*/
   border: none;
   color: black;
   padding: 15px 32px;
@@ -13,8 +17,39 @@ button {
   font-family: 'Londrina Solid';
 }
 
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin-top: 20px;
+}
 
 body {
     font-family: 'Londrina Solid';
     background-color: #FEE715;
+    
+}
+
+
+.container {
+  width: 800px;
+  max-width: 80%;
+  background-color: #79AEF8;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+  box-shadow: #5218fa;
+}
+
+.btn {
+  background-color:#FA8072(200, 100%, 50%);
+  border: 1px solid hsl(200, 100%, 30%);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #212c30;
+  outline: none;
+}
+
+.btn:hover {
+  border-color: #212c30;
 }

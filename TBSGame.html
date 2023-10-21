@@ -1,7 +1,7 @@
 <!--This is the start of my text based game-->
 <!DOCTYPE html>
 <html lang="en">
-    <script src="tbsgJS.js" type="text/javascript"></script>
+    
     <link href="tbsgstyles.css" rel="stylesheet" >
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,31 +16,14 @@
     <h1><a href="https://habadolad.github.io/">Home Page</a></h1>
     <title>What do you do with the mad you feel?</title>
 </head>
-<div id="content">
-    <!--The <div> HTML element is the generic container for flow content. It has no effect on the content or layout until styled in some way using CSS (e.g. styling is directly applied to it, or some kind of layout model like Flexbox is applied to its parent element).-->
+<div class="container">
+    <div id="text">Text of the game</div>
+    <div id="option-buttons" class="btn-grid">
+        <button class="btn">Option1</button>
+        <button class="btn">Option2</button>
+        <button class="btn">Option3</button>
+        <button class="btn">Option4</button>
 <body>
-    <h1>What do you do with the mad you feel?</h1>
-    <!--This label asks the question for the input, we do that by giving the input id,sync label to input use for-->
-    <label for="name-input">What is your name?</label>
-    <!--This input allows for a text box that enters information-->
-    <input id="name-input" type="text"> </input>
-    <!--The id attribute is a unique identifier that is used to specify the document.
-         It is used by CSS and JavaScript to perform a certain task for a unique element.
-          In CSS, the id attribute is used using the # symbol followed by id. quotes are not mandatory in tag=" " in all cases.-->
-    <!--button with a name, edit with css-->
-    <button id="startButton">Start the adventure!</button>
-    </div>
-    <br>
-    <br>
-    <p>This is the title to fantastic <a href="https://www.misterrogers.org/videos/what-to-you-do-with-the-mad-that-you-feel/" target="_blank"> Mister Rogers song</a>, about kids calming down when they get mad. I feel like it should be used by adults also,
-        it teaches that we often lapse into a negative spiral when frustrated, yet according to Fred Rogers, we can turn that into empathy.What’s the first response we have when we're upset with another person? Do we bristle and leap quickly onto defense?
- 
-         <p>So in my moment of frustration and spiralling anger i thought, turn into around author-of-this-website! And poured my frustration and stress into a text based game. </p>
-         <p>I'm pretty sure Mister rogers won't sue me so i have named the game what do you do with the mad you feel?</p>
-         <p>It's a text based game in homage to the originals! For more information this is a fantastic documentary called <a href="https://www.youtube.com/watch?v=zEJXZ2wnO3w" target="_blank"> Get Lamp: The Text Adventure Documentary</a> as well as is a documentary about the og interactive fiction genre company infocom!<a href="https://www.youtube.com/watch?v=OXNLWy7rwH4" target="_blank"> Infocom: The Documentary
-        </a>.
-           Hopefully this game let's you destress, take your mind off things and get empathy rather than anger! DU BIST SCHÖN!</p>
-   
 </body>
-
+<script src="tbsgJS.js" type="text/javascript"></script>
 </html>
